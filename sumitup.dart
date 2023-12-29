@@ -7,6 +7,6 @@ void main() {
   String? secondInput = stdin.readLineSync();
   double? secondNumber = double.tryParse(secondInput ?? '0');
   double sum = (firstNumber ?? 0) + (secondNumber ?? 0);
-  String resultMessage = "The sum of $firstNumber and $secondNumber is $sum.";
-  print(resultMessage);
+  String result = "The sum of $firstNumber and $secondNumber is $sum.";
+  print(result);
 }
